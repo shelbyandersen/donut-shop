@@ -1,6 +1,6 @@
 # donut-shop
 
-## Build a Server from SCratch
+## Build a Server from Scratch
 
 1. Create a 'server.js'
 2. npm init -y to generate a 'package.json'
@@ -16,7 +16,7 @@
 
 ### Build Routes
 
-- Optional: BUild a test route: "/api/config"
+- Optional: Build a test route: "/api/config"
 
 #### View Routes
 
@@ -34,5 +34,6 @@
 
 - Resource-driven API development
 
-1. "/api/resources" returns a collection of resources.
-2.
+1. GET "/api/resources" returns a collection of resources.
+2. GET "/api/resources:id" returns a single resource
+3. POST "/api/resources" allows the user to create a new resource
